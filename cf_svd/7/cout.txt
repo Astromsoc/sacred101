@@ -1,0 +1,16 @@
+INFO - cf_with_svd - Running command 'main'
+INFO - cf_with_svd - Started run with ID "7"
+Finished loading data.
+Finised converting to sparse matrix.
+Finished adding existing ratings--to avoid repeated recommendations.
+Finished finding neighbors.
+Finished training (and saving) the model.
+	Train RMSE:3.582607
+
+Finished testing on validation set.
+	Val MAP:0.009028
+
+Parameters passed from Sacred configuration.
+
+
+INFO - cf_with_svd - Completed after 0:00:03

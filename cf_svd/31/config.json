@@ -1,0 +1,6 @@
+{
+  "LATENT_DIM": 500,
+  "NEIGHBOR_K": 50,
+  "message": "Parameters passed from Sacred configuration.",
+  "seed": 893768929
+}

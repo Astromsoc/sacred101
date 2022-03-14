@@ -1,0 +1,60 @@
+{
+  "artifacts": [],
+  "command": "main",
+  "experiment": {
+    "base_dir": "/Users/astromsoc/Downloads/Temp/sacred_svd",
+    "dependencies": [
+      "numpy==1.20.3",
+      "sacred==0.8.2"
+    ],
+    "mainfile": "2_svd_with_sacred.py",
+    "name": "simple_config",
+    "repositories": [],
+    "sources": [
+      [
+        "2_svd_with_sacred.py",
+        "_sources/2_svd_with_sacred_5ed54217c6fbec187fdbdd6648b1be7c.py"
+      ]
+    ]
+  },
+  "heartbeat": "2022-03-14T00:21:34.334938",
+  "host": {
+    "ENV": {},
+    "cpu": "Apple M1 Pro",
+    "hostname": "astromsoc.fios-router.home",
+    "os": [
+      "Darwin",
+      "macOS-10.16-x86_64-i386-64bit"
+    ],
+    "python_version": "3.9.7"
+  },
+  "meta": {
+    "command": "main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2022-03-14T00:21:34.313316",
+  "status": "COMPLETED",
+  "stop_time": "2022-03-14T00:21:34.333353"
+}

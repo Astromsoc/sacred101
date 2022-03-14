@@ -1,0 +1,11 @@
+INFO - simple_config - Running command 'main'
+INFO - simple_config - Started run with ID "96"
+
+Finished matrix factorization.
+Finished matrix reconstruction.
+| RMSE = 0.019048 |
+
+Parameters passed from Sacred configuration.
+
+
+INFO - simple_config - Completed after 0:00:00
