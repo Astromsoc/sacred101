@@ -139,7 +139,7 @@ class svd:
         pickle.dump(self.existed, open(os.path.join(folder, annotation + '-e.pickle'), 'wb'), protocol=4)
         # pickle.dump(self.predicted, open(os.path.join(folder, annotation + '-p.pickle'), 'wb'), protocol=4)
 
-@ex.automain
+@ex.main
 def main(LATENT_DIM, NEIGHBOR_K, message):
     TRAIN_PATH = 'data/toy_train.json'
     # TEST_PATH = 'data/toy_test.json'
@@ -189,7 +189,5 @@ if __name__ == '__main__':
     num_neighbors = [5, 10, 20, 50, 100]
     for lat_dim in lat_dims:
         for num_neighbor in num_neighbors:
-            if lat_dim == 500 and num_neighbor == 100:
-                continue
             ex.run(config_updates={'LATENT_DIM': lat_dim,
                                    'NEIGHBOR_K': num_neighbor})

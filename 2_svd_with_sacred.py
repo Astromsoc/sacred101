@@ -36,7 +36,7 @@ class ssvvdd:
         diag = np.multiply(self.sv, np.eye(self.lat_dim))
         return self.u.dot(diag).dot(self.vh)
 
-@ex.automain
+@ex.main
 def main(message, LATENT_DIM):
     # load the raw data matrix
     DATA_PATH = 'data/toy_mat.pickle'
@@ -59,5 +59,5 @@ def main(message, LATENT_DIM):
     print("\n%s\n\n" % message)
 
 if __name__ == '__main__':
-    for ld in list(range(2, 101)):
+    for ld in list(range(1, 101)):
         ex.run(config_updates={'LATENT_DIM': ld})
